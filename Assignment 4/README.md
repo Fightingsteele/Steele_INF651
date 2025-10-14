@@ -1,0 +1,1 @@
+This code is a web program that allows the user to add and remove movie titles to an array to keep track of a watchlist. The code allows users to input and name as long as its not blank and not already on the list
