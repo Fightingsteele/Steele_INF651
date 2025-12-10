@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">  
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <script src="scripts/contactjs.js" defer></script>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="games.html">Games</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <h1 class = "contact-form">Contact Me (Doesnt actually contact me)</h1>
+            <form id="contactForm" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your Name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="your@email.com">
+
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Your message here..."></textarea>
+
+                <button type="submit">Send</button>
+
+                <p id="formStatus" class="status-message"></p>
+            </form>
+        </main>
+    </body>
+</html>
